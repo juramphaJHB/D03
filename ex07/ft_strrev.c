@@ -1,14 +1,10 @@
-void ft_putchar(char c){
-    write(1, &c, 1);
-}
-
- char ft_strlen(char *str){
- int count = 0;
- char arr[count];
-  while(*str != '\0'){
-      arr[count] = *str;
-      str = str + 1;
-      count++;
+char ft_strlen(char *str){
+int count = 0;
+char arr[count];
+while(*str != '\0'){
+  arr[count] = *str;
+  str = str + 1;
+  count++;
       
   }
 
